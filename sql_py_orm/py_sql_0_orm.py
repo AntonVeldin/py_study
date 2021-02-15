@@ -18,9 +18,6 @@ db = 'postgresql://' + db_user + ':' + db_pass + '@localhost:5432/' + db_name_2
 # db = 'postgresql+psycorg2://' + db_user + ':' + db_pass + '@localhost:5432/' + db_name
 
 
-# связи: https://docs.sqlalchemy.org/en/13/orm/basic_relationships.html
-
-
 # создаем обобщенный класс, который будет определять, что все наследуемые классы будут в одной схеме
 Base = declarative_base()
 

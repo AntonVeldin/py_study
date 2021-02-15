@@ -1,6 +1,8 @@
 import sqlalchemy as sq
 
 # Связь One to Many:
+# https://docs.sqlalchemy.org/en/13/orm/basic_relationships.html
+
 
 class Album(Base):
     __tablename__ = 'album'
