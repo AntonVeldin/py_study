@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-sql_py_orm/token.json
+token.json
 
 # C extensions
 *.so

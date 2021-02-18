@@ -3,7 +3,7 @@ import psycopg2
 import json
 from sqlalchemy.orm import sessionmaker
 
-with open("token.json", 'r') as f:
+with open("../token.json", 'r') as f:
     js = json.loads(f.read())
 db_name = js["database"]["name"]
 db_user = js["database"]["user"]
@@ -30,7 +30,6 @@ engine = sqlalchemy.create_engine(db)
 # connection = engine.connect()
 print(engine.table_names())
 
-print('-----3')
 
 
 
