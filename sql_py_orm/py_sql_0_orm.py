@@ -125,7 +125,6 @@ if __name__ == '__main__':
         'published': datetime.date(year=2020, month=1, day=1)
     })
     session.commit()
-x = path
 
 # Заполнение промежуточной таблицы с жанрами:
 #     genres = ['rock', 'classic', 'jazz']
