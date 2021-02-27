@@ -1,9 +1,9 @@
-time: 2021-02-28 02:16:19.762827
+time: 2021-02-28 02:19:02.713139
 func_name: print_for_hash_generator
-args: create_hasher, countries.json
+args: create_hasher, countries.json, log.txt
 result: ['74bc5dbda2125bd0da4c244a530fbabf', 'ebdadff9c79fec1b35872c47a1c3b7ff', '3d7e754a6a9aefb71abadb9dea7b6042', 'e737887a9fa8f77fea7a2acb97c10a53', '7258ac6c27ee951f0452be75a429d2df', 'bd3824eb32b448073aa22ec493b8b1c0', '8af89e6598c3bb554c674faa19a385d7', '0c5c3827dafe2940818c8c0c16a98ad4', 'd589637cdd796889f3eb45c10caccfa8', '58fed711f8d4317dcef021ba6ecb6189']
 
-time: 2021-02-28 02:16:19.762827
+time: 2021-02-28 02:19:11.440766
 func_name: print_for_hash_generator
 args: create_hasher, countries.json, log.txt
 result: ['74bc5dbda2125bd0da4c244a530fbabf', 'ebdadff9c79fec1b35872c47a1c3b7ff', '3d7e754a6a9aefb71abadb9dea7b6042', 'e737887a9fa8f77fea7a2acb97c10a53', '7258ac6c27ee951f0452be75a429d2df', 'bd3824eb32b448073aa22ec493b8b1c0', '8af89e6598c3bb554c674faa19a385d7', '0c5c3827dafe2940818c8c0c16a98ad4', 'd589637cdd796889f3eb45c10caccfa8', '58fed711f8d4317dcef021ba6ecb6189']

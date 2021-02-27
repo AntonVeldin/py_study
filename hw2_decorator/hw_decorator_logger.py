@@ -24,12 +24,6 @@ def decorator_logger_for_hash_generator(old_function):
             result_list.append(el)
 
         with open(log_path, 'a') as log_file:
-            log_file.write('time: ' + str(now) + '\n')
-            log_file.write('func_name: ' + old_function.__name__ + '\n')
-            log_file.write('args: ' + generator.__name__ + ', ' + path + '\n')
-            log_file.write('result: ' + str(result_list) + '\n')
-            log_file.write('\n')
-
             log_file.write(
                 'time: ' + str(now) + '\n'
                 'func_name: ' + old_function.__name__ + '\n'
