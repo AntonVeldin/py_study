@@ -2,7 +2,7 @@ import hashlib
 import datetime
 
 
-my_origin_path = '/Users/apple/PycharmProjects/Py_study/hw1_iterator_generator/countries.json'
+my_origin_path = 'countries.json'
 my_log_path = 'log.txt'
 
 
