@@ -15,7 +15,7 @@ class WikiParser:
         country_link_list = []
         with open(self.origin_json_path, 'r') as f:
             json_data = json.load(f)
-        for el in json_data:
+        for el in json_data[:10]:
             country_link_dict = {'name': None, 'link': None}
             country = el['name']['official']
             try:
